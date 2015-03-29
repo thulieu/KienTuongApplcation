@@ -1,0 +1,10 @@
+c:\users\hoangtukid\documents\visual studio 2010\Projects\DRBISPKT\DRBISPKT\bin\Debug\DRBISPKT.exe
+c:\users\hoangtukid\documents\visual studio 2010\Projects\DRBISPKT\DRBISPKT\bin\Debug\DRBISPKT.pdb
+c:\users\hoangtukid\documents\visual studio 2010\Projects\DRBISPKT\DRBISPKT\obj\Debug\ResolveAssemblyReference.cache
+c:\users\hoangtukid\documents\visual studio 2010\Projects\DRBISPKT\DRBISPKT\obj\Debug\DRBISPKT.DRBISPKT.resources
+c:\users\hoangtukid\documents\visual studio 2010\Projects\DRBISPKT\DRBISPKT\obj\Debug\DRBISPKT.Properties.Resources.resources
+c:\users\hoangtukid\documents\visual studio 2010\Projects\DRBISPKT\DRBISPKT\obj\Debug\GenerateResource.read.1.tlog
+c:\users\hoangtukid\documents\visual studio 2010\Projects\DRBISPKT\DRBISPKT\obj\Debug\GenerateResource.write.1.tlog
+c:\users\hoangtukid\documents\visual studio 2010\Projects\DRBISPKT\DRBISPKT\obj\Debug\DRBISPKT.exe.licenses
+c:\users\hoangtukid\documents\visual studio 2010\Projects\DRBISPKT\DRBISPKT\obj\Debug\DRBISPKT.exe
+c:\users\hoangtukid\documents\visual studio 2010\Projects\DRBISPKT\DRBISPKT\obj\Debug\DRBISPKT.pdb

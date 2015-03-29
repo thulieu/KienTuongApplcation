@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{10B89542-CF5E-46C8-BFAF-C5C4586CB3C6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DRBISPKT</RootNamespace>
+    <AssemblyName>DRBISPKT</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v14.2" />
+    <Reference Include="DevExpress.Data.v14.2" />
+    <Reference Include="DevExpress.Utils.v14.2" />
+    <Reference Include="DevExpress.Sparkline.v14.2.Core" />
+    <Reference Include="DevExpress.XtraBars.v14.2, Version=14.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v14.2" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form View\MapControler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form View\MapControler.Designer.cs">
+      <DependentUpon>MapControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MainMenu\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SourceIcon\Copy_32x32.png" />
+    <Content Include="SourceIcon\Cut_32x32.png" />
+    <Content Include="SourceIcon\delete_32x32.png" />
+    <Content Include="SourceIcon\Find_32x32.png" />
+    <Content Include="SourceIcon\infomation_32x32.jpg" />
+    <Content Include="SourceIcon\Paste_32x32.png" />
+    <Content Include="SourceIcon\slect_list_32x32.png" />
+    <Content Include="SourceIcon\distance-icon32x32.jpg" />
+    <Content Include="SourceIcon\Draw_polygon.jpg" />
+    <Content Include="SourceIcon\Export_32x32.png" />
+    <Content Include="SourceIcon\favicon.ico" />
+    <Content Include="SourceIcon\FillBackground_32x32.png" />
+    <Content Include="SourceIcon\ImportImage_32x32.png" />
+    <Content Include="SourceIcon\Palette_32x32.png" />
+    <Content Include="SourceIcon\pan-icon.gif" />
+    <Content Include="SourceIcon\pan.gif" />
+    <Content Include="SourceIcon\Pivot_32x32.png" />
+    <Content Include="SourceIcon\Replace_32x32.png" />
+    <Content Include="SourceIcon\Save_32x32.png" />
+    <Content Include="SourceIcon\slect_object.png" />
+    <Content Include="SourceIcon\Stretch_32x32.png" />
+    <Content Include="SourceIcon\ViewOnWeb_32x32.png" />
+    <Content Include="SourceIcon\zoom-in.png" />
+    <Content Include="SourceIcon\zoom-out.png" />
+    <Content Include="SourceIcon\Zoom100_32x32.png" />
+    <Content Include="SourceIcon\ZoomIn_32x32.png" />
+    <Content Include="SourceIcon\ZoomOut_32x32.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
